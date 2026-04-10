@@ -34,13 +34,12 @@ This project evaluates and ensembles:
 
 This project uses a **geometric ensemble**, which combines model outputs in log space:
 
-\[
-P_{ensemble} = \exp\left(\sum_{i} w_i \cdot \log(P_i)\right)
-\]
+
+$$\[P_{ensemble} = \exp\left(\sum_{i} w_i \cdot \log(P_i)\right)\]$$
 
 Where:
-- \( P_i \) = probability distribution from model *i*
-- \( w_i \) = normalized model weight based on validation accuracy
+- $$\( P_i \)$$ = probability distribution from model $*i*$
+- $$\( w_i \)$$ = normalized model weight based on validation accuracy
 
 ---
 
